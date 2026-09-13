@@ -3,6 +3,9 @@
 Homework 2: Collaborative Data Wrangling & EDA
 DSE 511 – Fall 2026
 
+This project studies the relationship between access to electricity and GDP per capita across countries from 2000 to 2023.
+
+
 ---
 
 ## Dataset Information
