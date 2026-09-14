@@ -3,6 +3,9 @@
 Homework 2: Collaborative Data Wrangling & EDA
 DSE 511 – Fall 2026
 
+This project studies the relationship between access to electricity and GDP per capita across countries from 2000 to 2023.
+
+
 ---
 
 ## Dataset Information
@@ -94,4 +97,4 @@ Most interestingly, there was a break point at about $15k in GDP per capita. All
 
 ## Merge Conflict Reflection
 
-Coming soon
+We had a merge conflict in the data-cleaning notebook because both branches changed the same file. We reviewed the conflict and kept Teliyah’s version because it contained the final cleaning work. We then committed the resolved file and pushed it to GitHub.
