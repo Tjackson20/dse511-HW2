@@ -58,6 +58,12 @@ The final cleaned dataset contains 4,914 complete country-year records from 211 
 
 The exploratory data analysis results and representative figure will be added after the analysis is completed.
 
+The correlation between electrification and GDP per capita was about 0.4.
+
+Electrification per capita was heavily clustered around 100%; the median country had 99% electrification, but the mean country had 81% electrification.
+
+Most interestingly, there was a break point at about $15k in GDP per capita. All countries with a GDP per capita greater than approximately that value had full electrification.
+
 ---
 
 ## Collaboration Notes
