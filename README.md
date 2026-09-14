@@ -42,7 +42,16 @@ The datasets were cleaned and combined using Python and pandas. The cleaning ste
 
 ### Exploratory Data Analysis – Ben
 
-Ben will add the summary statistics, visualizations, and findings from the exploratory data analysis.
+The datasets were transformed and analyzed also using Python and pandas. Pandas was also used to generate a scatterplot.
+
+* Imported the combined and cleaned file, courtesy of Teliyah.
+* Transformed the data into per-country averages.
+* Calculated the summary statistics prior to per-country and after per-country averaging.
+	** Statistics used include mean, standard deviation, min, max, 25th, 50th, and 75th percentiles, as these are included in the "describe()" package.
+* Calculated the correlation between electricity_access and gdp_per_capita
+* Scatter plotted the result. Terminated analysis when it became clear that the two variables have an incredibly strong near step-wise relationship.
+
+
 
 ---
 
@@ -52,13 +61,19 @@ The final cleaned dataset contains 4,914 complete country-year records from 211 
 
 The exploratory data analysis results and representative figure will be added after the analysis is completed.
 
+The correlation between electrification and GDP per capita was about 0.4.
+
+Electrification per capita was heavily clustered around 100%; the median country had 99% electrification, but the mean country had 81% electrification.
+
+Most interestingly, there was a break point at about $15k in GDP per capita. All countries with a GDP per capita greater than approximately that value had full electrification.
+
 ---
 
 ## Collaboration Notes
 
 * **Teliyah Jackson:** Created the repository, cleaned and combined the data, and documented the cleaning process.
-* **Ben:** N/A
-* **Both partners:** N/A
+* **Ben:** Calculated summary statistics, transformed data, created scatterplot.
+* **Both partners:** Documented results in the README, prepared documents for submission.
 
 ---
 
