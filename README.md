@@ -59,8 +59,6 @@ The datasets were transformed and analyzed also using Python and pandas. Pandas 
 
 The final cleaned dataset contains 4,914 complete country-year records from 211 countries and territories. It has no missing measurements or duplicate country-year rows.
 
-The exploratory data analysis results and representative figure will be added after the analysis is completed.
-
 The correlation between electrification and GDP per capita was about 0.4.
 
 Electrification per capita was heavily clustered around 100%; the median country had 99% electrification, but the mean country had 81% electrification.
@@ -83,15 +81,15 @@ Most interestingly, there was a break point at about $15k in GDP per capita. All
 
 2. Install the required Python package:
 
-   `pip install -r requirements.txt`
+   pip install -r requirements.txt
 
-3. Open `Notebooks/data_cleaning.ipynb` in Jupyter Notebook or VS Code.
+3. Open Notebooks/data_cleaning.ipynb in Jupyter Notebook or VS Code.
 
 4. Run the notebook cells from top to bottom.
 
 5. An internet connection is needed when the notebook requests country information from the World Bank API.
 
-6. The cleaned dataset will be saved in `Data/cleaned`.
+6. The cleaned dataset will be saved in Data/cleaned.
 
 ---
 
